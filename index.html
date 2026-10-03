@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amarilnta Selmanai</title>
+  <meta name="description" content="Amarilnta Selmanai – Multilingual customer relations professional (Albanian, Greek, German, English, French). EU citizen, cross-border Trier – Luxembourg.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== TOP BAR ========== -->
+  <header class="topbar" id="topbar">
+    <div class="container topbar-inner">
+
+      <!-- Language selector (top-left) -->
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="langMenu">
+          <span class="lang-code" id="langBtnCode">FR</span>
+          <span id="langBtnName">Français</span>
+          <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <ul class="lang-menu" id="langMenu" role="listbox" tabindex="-1">
+          <li class="lang-option" role="option" tabindex="0" data-lang="de"><span class="lang-code">DE</span>Deutsch</li>
+          <li class="lang-option" role="option" tabindex="0" data-lang="fr"><span class="lang-code">FR</span>Français</li>
+          <li class="lang-option" role="option" tabindex="0" data-lang="en"><span class="lang-code">EN</span>English</li>
+          <li class="lang-option" role="option" tabindex="0" data-lang="es"><span class="lang-code">ES</span>Español</li>
+          <li class="lang-option" role="option" tabindex="0" data-lang="lb"><span class="lang-code">LB</span>Lëtzebuergesch</li>
+          <li class="lang-option" role="option" tabindex="0" data-lang="pt"><span class="lang-code">PT</span>Português</li>
+        </ul>
+      </div>
+
+      <nav class="nav" aria-label="Main">
+        <a href="#about" data-i18n="nav.about"></a>
+        <a href="#languages" data-i18n="nav.languages"></a>
+        <a href="#skills" data-i18n="nav.skills"></a>
+        <a href="#capabilities" data-i18n="nav.capabilities"></a>
+        <a href="#experience" data-i18n="nav.experience"></a>
+        <a href="#contact" data-i18n="nav.contact"></a>
+      </nav>
+
+      <a href="#top" class="monogram" aria-label="Amarilnta Selmanai">AS</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="top">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="eyebrow" data-i18n="hero.eyebrow"></span>
+          <h1>Amarilnta <span>Selmanai</span></h1>
+          <p class="hero-role" data-i18n="hero.role"></p>
+          <p class="hero-tagline" data-i18n="hero.tagline"></p>
+          <div class="badges">
+            <span class="badge">🇪🇺 <span data-i18n="hero.badge.eu"></span></span>
+            <span class="badge">📍 <span data-i18n="hero.badge.border"></span></span>
+            <span class="badge"><span class="dot"></span><span data-i18n="hero.badge.open"></span></span>
+          </div>
+          <div class="cta-row">
+            <a href="#contact" class="btn btn-gold" data-i18n="hero.cta.contact"></a>
+            <a href="cv.html" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="hero.cta.cv"></a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap reveal">
+          <div class="portrait-ring">
+            <img src="avatar.jpg" alt="Amarilnta Selmanai" width="340" height="340" fetchpriority="high">
+          </div>
+          <div class="float-card fc1">
+            <span class="fc-icon">🗣️</span>
+            <div>6 <span data-i18n="float.lang"></span><small>SQ · EL · DE · EN · FR · ES</small></div>
+          </div>
+          <div class="float-card fc2">
+            <span class="fc-icon">🎓</span>
+            <div>2× IHK<small data-i18n="float.ihk"></small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATS ========== -->
+    <div class="stats">
+      <div class="container stats-grid reveal">
+        <div class="stat"><div class="stat-num">6</div><div class="stat-label" data-i18n="stats.lang"></div></div>
+        <div class="stat"><div class="stat-num">2<span>×</span></div><div class="stat-label" data-i18n="stats.ihk"></div></div>
+        <div class="stat"><div class="stat-num">3</div><div class="stat-label" data-i18n="stats.sectors"></div></div>
+        <div class="stat"><div class="stat-num">🇪🇺</div><div class="stat-label" data-i18n="stats.eu"></div></div>
+      </div>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="block" id="about">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <span class="kicker" data-i18n="about.kicker"></span>
+          <h2 class="section-title" data-i18n="about.title"></h2>
+          <p data-i18n-html="about.p1"></p>
+          <p data-i18n-html="about.p2"></p>
+        </div>
+        <div class="facts reveal">
+          <div class="fact"><span class="fact-icon">📍</span><div><div class="fact-k" data-i18n="about.f1.k"></div><div class="fact-v" data-i18n="about.f1.v"></div></div></div>
+          <div class="fact"><span class="fact-icon">🇪🇺</span><div><div class="fact-k" data-i18n="about.f2.k"></div><div class="fact-v" data-i18n="about.f2.v"></div></div></div>
+          <div class="fact"><span class="fact-icon">💼</span><div><div class="fact-k" data-i18n="about.f3.k"></div><div class="fact-v" data-i18n="about.f3.v"></div></div></div>
+          <div class="fact"><span class="fact-icon">🌍</span><div><div class="fact-k" data-i18n="about.f4.k"></div><div class="fact-v" data-i18n="about.f4.v"></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== LANGUAGES ========== -->
+    <section class="block alt" id="languages">
+      <div class="container">
+        <div class="head-center reveal">
+          <span class="kicker" data-i18n="lang.kicker"></span>
+          <h2 class="section-title" data-i18n="lang.title"></h2>
+          <p class="section-sub" data-i18n="lang.sub"></p>
+        </div>
+        <div class="lang-grid">
+          <div class="lang-card native reveal"><div class="ring" data-p="100"><div class="ring-inner">SQ</div></div><div><div class="lang-name" data-i18n="lang.sq"></div><div class="lang-level" data-i18n="level.native"></div></div></div>
+          <div class="lang-card native reveal"><div class="ring" data-p="100"><div class="ring-inner">EL</div></div><div><div class="lang-name" data-i18n="lang.el"></div><div class="lang-level" data-i18n="level.native"></div></div></div>
+          <div class="lang-card reveal"><div class="ring" data-p="90"><div class="ring-inner">C1</div></div><div><div class="lang-name" data-i18n="lang.de"></div><div class="lang-level" data-i18n="level.c1"></div></div></div>
+          <div class="lang-card reveal"><div class="ring" data-p="90"><div class="ring-inner">C1</div></div><div><div class="lang-name" data-i18n="lang.en"></div><div class="lang-level" data-i18n="level.c1"></div></div></div>
+          <div class="lang-card reveal"><div class="ring" data-p="72"><div class="ring-inner">B2</div></div><div><div class="lang-name" data-i18n="lang.fr"></div><div class="lang-level" data-i18n="level.b2"></div></div></div>
+          <div class="lang-card reveal"><div class="ring" data-p="80"><div class="ring-inner">ES</div></div><div><div class="lang-name" data-i18n="lang.es"></div><div class="lang-level" data-i18n="level.fluent"></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="block" id="skills">
+      <div class="container">
+        <div class="head-center reveal">
+          <span class="kicker" data-i18n="skills.kicker"></span>
+          <h2 class="section-title" data-i18n="skills.title"></h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3><span class="ic">🤝</span><span data-i18n="skills.c1"></span></h3>
+            <div class="tags"><span class="tag" data-i18n="s.t1"></span><span class="tag" data-i18n="s.t2"></span><span class="tag" data-i18n="s.t3"></span><span class="tag" data-i18n="s.t4"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span class="ic">🛡️</span><span data-i18n="skills.c2"></span></h3>
+            <div class="tags"><span class="tag" data-i18n="s.t5"></span><span class="tag" data-i18n="s.t6"></span><span class="tag" data-i18n="s.t7"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span class="ic">✈️</span><span data-i18n="skills.c3"></span></h3>
+            <div class="tags"><span class="tag" data-i18n="s.t8"></span><span class="tag" data-i18n="s.t9"></span><span class="tag" data-i18n="s.t10"></span><span class="tag" data-i18n="s.t11"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span class="ic">💻</span><span data-i18n="skills.c4"></span></h3>
+            <div class="tags"><span class="tag">MS Office 2019</span><span class="tag">Word · Excel · Outlook</span><span class="tag" data-i18n="s.t12"></span><span class="tag" data-i18n="s.t13"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CAPABILITIES ========== -->
+    <section class="block alt" id="capabilities">
+      <div class="container">
+        <div class="head-center reveal">
+          <span class="kicker" data-i18n="cap.kicker"></span>
+          <h2 class="section-title" data-i18n="cap.title"></h2>
+        </div>
+        <div class="cap-grid">
+          <div class="cap reveal"><div class="cap-icon">🗣️</div><h3 data-i18n="cap1.t"></h3><p data-i18n="cap1.d"></p></div>
+          <div class="cap reveal"><div class="cap-icon">📋</div><h3 data-i18n="cap2.t"></h3><p data-i18n="cap2.d"></p></div>
+          <div class="cap reveal"><div class="cap-icon">💬</div><h3 data-i18n="cap3.t"></h3><p data-i18n="cap3.d"></p></div>
+          <div class="cap reveal"><div class="cap-icon">🔗</div><h3 data-i18n="cap4.t"></h3><p data-i18n="cap4.d"></p></div>
+          <div class="cap reveal"><div class="cap-icon">🗂️</div><h3 data-i18n="cap5.t"></h3><p data-i18n="cap5.d"></p></div>
+          <div class="cap reveal"><div class="cap-icon">🌍</div><h3 data-i18n="cap6.t"></h3><p data-i18n="cap6.d"></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section class="block" id="experience">
+      <div class="container">
+        <div class="head-center reveal">
+          <span class="kicker" data-i18n="exp.kicker"></span>
+          <h2 class="section-title" data-i18n="exp.title"></h2>
+        </div>
+        <div class="timeline">
+          <div class="t-item reveal">
+            <span class="t-date">06/2024 – <span data-i18n="exp.present"></span></span>
+            <div class="t-role" data-i18n="exp1.role"></div>
+            <div class="t-company">NIX WIE WEG TRAVEL + TOURISTIK GmbH · Trier</div>
+            <p class="t-desc" data-i18n="exp1.desc"></p>
+          </div>
+          <div class="t-item reveal">
+            <span class="t-date">08/2022 – 05/2024</span>
+            <div class="t-role" data-i18n="exp2.role"></div>
+            <div class="t-company">Zurich Gruppe Deutschland</div>
+            <p class="t-desc" data-i18n="exp2.desc"></p>
+          </div>
+          <div class="t-item reveal">
+            <span class="t-date">07/2021 – 07/2022</span>
+            <div class="t-role" data-i18n="exp3.role"></div>
+            <div class="t-company">Royal Motors GmbH · Trier</div>
+            <p class="t-desc" data-i18n="exp3.desc"></p>
+          </div>
+        </div>
+        <div class="edu-strip">
+          <div class="edu reveal"><span class="t-date">2022 – 2023</span><p data-i18n="edu1"></p></div>
+          <div class="edu reveal"><span class="t-date">2017 – 2020</span><p data-i18n="edu2"></p></div>
+          <div class="edu reveal"><span class="t-date">2020 – 2021</span><p data-i18n="edu3"></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact">
+      <div class="blob b1"></div>
+      <div class="container" style="position:relative">
+        <div class="reveal">
+          <span class="kicker" data-i18n="contact.kicker"></span>
+          <h2 class="section-title" data-i18n="contact.title"></h2>
+          <p class="section-sub" data-i18n="contact.sub"></p>
+        </div>
+        <div class="contact-cards reveal">
+          <a class="c-card" href="mailto:aselmanai80@gmail.com"><div class="k" data-i18n="contact.email"></div><div class="v">aselmanai80@gmail.com</div></a>
+          <a class="c-card" href="tel:+491621510082"><div class="k" data-i18n="contact.phone"></div><div class="v">+49 162 151 0082</div></a>
+          <div class="c-card"><div class="k" data-i18n="contact.loc"></div><div class="v" data-i18n="contact.loc.v"></div></div>
+        </div>
+        <a href="mailto:aselmanai80@gmail.com" class="btn btn-gold reveal" data-i18n="contact.cta"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Amarilnta Selmanai · <span data-i18n="footer.rights"></span></div>
+  </footer>
+
+  <script src="i18n-de-fr.js"></script>
+  <script src="i18n-en-es.js"></script>
+  <script src="i18n-lb-pt.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
