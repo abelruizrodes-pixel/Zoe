@@ -29,6 +29,11 @@
     });
 
     document.documentElement.lang = lang;
+    const cvLink = document.querySelector('a[data-i18n="hero.cta.cv"]');
+    if (cvLink) {
+      cvLink.href = (lang === 'fr') ? 'cv.html' : `cv_${lang}.html`;
+    }
+
     document.title = dict['meta.title'] || document.title;
 
     btn.querySelector('#langBtnCode').textContent = LANGS[lang].code;
