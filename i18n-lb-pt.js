@@ -17,7 +17,7 @@ window.I18N = Object.assign(window.I18N || {}, {
     "about.p1": "Ech si <strong>Versécherungsvermëttlerin mat Industrie- und Handelskammer-Ofschloss</strong> an <strong>ausgebilten Tourismuskauffra</strong> fir Privat- a Geschäftsreesen. Bei der Zurich Gruppe Deutschland hunn ech Clienten beroden a Schuedefäll bearbecht; haut organiséieren ech Reesen a betreien Clienten bei NIX WIE WEG Travel + Touristik.",
     "about.p2": "Ech kommen ursprénglech aus Albanien an hu laang Erfahrung a Griicheland an an Däitschland. Ech schwätzen <strong>Albanesch a Griichesch als Mammesprooch, souwéi fléissend Däitsch, Englesch a Spuenesch, mat Basiswëssen op Franséisch</strong>.",
     "about.f1.k": "Wunnuert", "about.f1.v": "Tréier (DE) · Groussregioun Lëtzebuerg",
-    "about.f2.k": "Nationalitéit", "about.f2.v": "Däitsch & Griichesch (EU)",
+    "about.f2.k": "Nationalitéit", "about.f2.v": "Griichesch-Däitsch (EU)",
     "about.f3.k": "Secteuren", "about.f3.v": "Tourismus · Versécherung · Automobil",
     "about.f4.k": "Internationale Parcours", "about.f4.v": "Albanien · Groussbritannien · Griicheland · Däitschland",
     "lang.kicker": "Sproochen", "lang.title": "Sechs Sproochen, eng kloer Stëmm",

@@ -17,7 +17,7 @@ window.I18N = Object.assign(window.I18N || {}, {
     "about.p1": "I am an <strong>Industrie- und Handelskammer-certified insurance intermediary</strong> and a <strong>qualified travel management assistant</strong> (private and business travel). At Zurich Gruppe Deutschland I advised clients and handled insurance claims; today I organise trips and look after clients at NIX WIE WEG Travel + Touristik.",
     "about.p2": "Originally from Albania, with many years of experience in Greece and Germany, I speak <strong>Albanian and Greek natively, and am fluent in German, English, and Spanish, with basic French</strong>.",
     "about.f1.k": "Based in", "about.f1.v": "Trier (DE) · Greater Region of Luxembourg",
-    "about.f2.k": "Nationality", "about.f2.v": "German & Greek (EU)",
+    "about.f2.k": "Nationality", "about.f2.v": "Greek-German (EU)",
     "about.f3.k": "Sectors", "about.f3.v": "Travel · Insurance · Automotive",
     "about.f4.k": "International background", "about.f4.v": "Albania · United Kingdom · Greece · Germany",
     "lang.kicker": "Languages", "lang.title": "Six languages, one clear voice",
