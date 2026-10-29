@@ -49,7 +49,7 @@ window.I18N = Object.assign(window.I18N || {}, {
     "edu3": "MS Office 2019 · Alfatraining Bildungszentrum",
     "contact.kicker": "Kontakt", "contact.title": "Lassen Sie uns zusammenarbeiten",
     "contact.sub": "Ich freue mich auf Ihre Nachricht und ein persönliches Gespräch.",
-    "contact.email": "E-Mail", "contact.phone": "Telefon", "contact.loc": "Standort", "contact.loc.v": "Trier, Deutschland · Grenzregion Luxemburg",
+    "contact.email": "E-Mail", "contact.phone": "Telefon", "contact.loc": "Standort", "contact.loc.v": "Trier",
     "contact.cta": "E-Mail senden", "footer.rights": "Alle Rechte vorbehalten"
   },
 
@@ -103,7 +103,7 @@ window.I18N = Object.assign(window.I18N || {}, {
     "edu3": "MS Office 2019 · Alfatraining Bildungszentrum",
     "contact.kicker": "Contact", "contact.title": "Travaillons ensemble",
     "contact.sub": "Je serai ravie d'échanger avec vous lors d'un entretien.",
-    "contact.email": "E-mail", "contact.phone": "Téléphone", "contact.loc": "Localisation", "contact.loc.v": "Trèves, Allemagne · Grande Région Luxembourg",
+    "contact.email": "E-mail", "contact.phone": "Téléphone", "contact.loc": "Localisation", "contact.loc.v": "Trèves",
     "contact.cta": "Envoyer un e-mail", "footer.rights": "Tous droits réservés"
   }
 });
